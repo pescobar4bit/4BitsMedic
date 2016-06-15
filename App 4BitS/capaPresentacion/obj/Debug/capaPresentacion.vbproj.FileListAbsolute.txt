@@ -36,11 +36,6 @@ C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Medical 4Bits.xml
 C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Medical 4Bits.pdb
 C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmEspecialidades.resources
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.exe.config
-C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Interop.MSScriptControl.dll
-C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbproj.ResolveComReference.cache
-C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.exe
-C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.xml
-C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.pdb
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.exe
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.pdb
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.xml
@@ -52,6 +47,8 @@ C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaDatos.
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaDatos.xml
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Interop.MSScriptControl.dll
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbprojResolveAssemblyReference.cache
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Interop.MSScriptControl.dll
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbproj.ResolveComReference.cache
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmAnalisisDisenadorActu.resources
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmEspecialidades.resources
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmGruposNuevo.resources
@@ -72,3 +69,6 @@ C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.WaitForm1.resources
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbproj.GenerateResource.Cache
 C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.exe.licenses
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.exe
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.xml
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.pdb
