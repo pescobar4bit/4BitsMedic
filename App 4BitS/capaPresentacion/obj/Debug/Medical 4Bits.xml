@@ -1,0 +1,558 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Medical4Bits
+</name>
+</assembly>
+<members>
+<member name="P:namespace4BITS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources._1323372869_quick_restart">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources._1323988815_arrow_down">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources._6_8_large">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources._auto">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.accept">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.accept_vns1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.actualizar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.add">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.add_vns1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.aedit">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Apple1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.bodegas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.bodegas_nuevo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.business_user">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.catalogo2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.chart">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.consolidado">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.consolidado_imprimir_icon">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.consolidado_ordenesentrega">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.consolidado2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corte_cheques">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corte_efectivo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corte_gastos2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corte_icon">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corte_pasar_fac_a_credito">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corte2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.corteicon2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.database_down">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.database_search">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Delete">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.delete_notas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.delete_vns1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.digital_camera_image">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.editar1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.eliminar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Eliminar1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.farmalider">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.farmalider01">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Google_Earth_32">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Home2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Hospital_2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.image">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.loading2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.map_sign_start">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.mapa_buscar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.mapa_ver_todas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.mapas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.note_add">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.note_edit">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.note_remove">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.notebook_accept">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.notebook_add">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.notebook_delete">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.nuevo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Package">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.package_add">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.package2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.passwordUsers">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.passwordUsers1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Paste1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedido_nuevopedido">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedidoasignarpedidoaorden">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedidonuevo_pedido">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedidos">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedidos_numero">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedidos_ver_detalle">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pedidosmanual">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.pinned1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.printer">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.printer_search">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.printer1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.producto">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.producto_nuevo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.productos_columnas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.promociones_regalo">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.promociones2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.refresh_notas">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.salir">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.search16x16">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.Tips">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.unpinned1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.users">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.users1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.web_camera">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.web_camera_remove">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:namespace4BITS.My.Resources.Resources.xedit2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:namespace4BITS.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.#ctor">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaXMLCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoXmlCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoXmlCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaCopiaXMLCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoCopiaXmlCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoCopiaXmlCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mAnularFacturaCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNCCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNDCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoFacturasCompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNCECompleted">
+	<remarks/>
+</member><member name="E:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNDECompleted">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaXML(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaXMLAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaXMLAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoXml(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoXmlAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoXmlAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoXml(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoXmlAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoXmlAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaCopiaXML(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaCopiaXMLAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mFacturaCopiaXMLAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoCopiaXml(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoCopiaXmlAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaCreditoCopiaXmlAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoCopiaXml(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoCopiaXmlAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mNotaDebitoCopiaXmlAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularFactura(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularFacturaAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularFacturaAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNC(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNCAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNCAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularND(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNDAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mAnularNDAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoFacturas(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoFacturasAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoFacturasAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNCE(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNCEAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNCEAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNDE(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNDEAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.mObtieneInfoNDEAsync(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:namespace4BITS.ServicioWebFacturacion.Service1.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.Service1">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.SSO_clsResponseGeneral.pResultado">
+	<comentarios/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.SSO_clsResponseGeneral.pDescripcion">
+	<comentarios/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.SSO_clsResponseGeneral.pCAE">
+	<comentarios/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.SSO_clsResponseGeneral.pIdSat">
+	<comentarios/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.SSO_clsResponseGeneral.pCAEC">
+	<comentarios/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.SSO_clsResponseGeneral">
+	<comentarios/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mFacturaXMLCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mFacturaXMLCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mFacturaXMLCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaCreditoXmlCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mNotaCreditoXmlCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaCreditoXmlCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaDebitoXmlCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mNotaDebitoXmlCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaDebitoXmlCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mFacturaCopiaXMLCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mFacturaCopiaXMLCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mFacturaCopiaXMLCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaCreditoCopiaXmlCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mNotaCreditoCopiaXmlCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaCreditoCopiaXmlCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaDebitoCopiaXmlCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mNotaDebitoCopiaXmlCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mNotaDebitoCopiaXmlCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mAnularFacturaCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mAnularFacturaCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mAnularFacturaCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mAnularNCCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mAnularNCCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mAnularNCCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mAnularNDCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mAnularNDCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mAnularNDCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mObtieneInfoFacturasCompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mObtieneInfoFacturasCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mObtieneInfoFacturasCompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mObtieneInfoNCECompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mObtieneInfoNCECompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mObtieneInfoNCECompletedEventArgs">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mObtieneInfoNDECompletedEventHandler">
+	<remarks/>
+</member><member name="P:namespace4BITS.ServicioWebFacturacion.mObtieneInfoNDECompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:namespace4BITS.ServicioWebFacturacion.mObtieneInfoNDECompletedEventArgs">
+	<remarks/>
+</member><member name="M:namespace4BITS.namespace4BITS.PRINCIPAL.#ctor">
+	<summary>
+ The main entry point for the application.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-GT">
+  <Title Text="Tablero de control" />
+  <DataConnections>
+    <DataConnection Name="farmaliderDWeb.db.10508449.hostedresource.com_farmaliderDWebConnection" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="farmaliderDWeb.db.10508449.hostedresource.com" />
+        <Parameter Name="database" Value="farmaliderDWeb" />
+        <Parameter Name="useIntegratedSecurity" Value="False" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+    <DataConnection Name="farmaliderDWebSP.db.10508449.hostedresource.com_farmaliderDWebSPConnection" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="farmaliderDWebSP.db.10508449.hostedresource.com" />
+        <Parameter Name="database" Value="farmaliderDWebSP" />
+        <Parameter Name="useIntegratedSecurity" Value="False" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="SellOutPorProducto" />
+    <DataSource ComponentName="dataSource2" Name="SellOutPorPedido" />
+    <DataSource ComponentName="dataSource3" Name="SellIn" />
+    <DataSource ComponentName="dataSource4" Name="PromedioRutas" />
+    <DataSource ComponentName="dataSource5" Name="FarmaliderDWebXela_SellOutTotal">
+      <DataProvider DataConnection="farmaliderDWeb.db.10508449.hostedresource.com_farmaliderDWebConnection" Sql="SELECT      dbo.tCasas.casa, CONVERT(varchar, dbo.tPedidos.fecha, 103) AS FechaPedido, dbo.tProductos.Producto, &#xD;&#xA;							  dbo.tDetallePedido.cantidad, dbo.tDetallePedido.presentacion AS Presentacion, dbo.tProductos.CodigoB, dbo.tProductos.CodigoBK, &#xD;&#xA;							  dbo.tDetallePedido.cantidad * dbo.tDetallePedido.precio AS Total, dbo.tDetallePedido.precio AS Precio, &#xD;&#xA;							  dbo.tEmpleados.Nombre + ' ' + dbo.tEmpleados.Apellido AS Empleado, dbo.tEmpleados.codigo AS CodigoEmpleado, dbo.tSubcategorias.Categoria, &#xD;&#xA;							  dbo.tTiendas.Tienda, dbo.tTiendas.codigo AS CodigoTienda, dbo.tDetallePedido.promocion, dbo.tRutas.Ruta, dbo.tRutas.codigo AS CodigoRuta, &#xD;&#xA;							  dbo.tDepartamentos.departamento AS Departamento, dbo.tMunicipios.municipio AS Municipio, 0 AS NumFactura, dbo.fCalcularUnidades2(N'FARDO', &#xD;&#xA;							  dbo.fCalcularUnidades(dbo.tDetallePedido.presentacion, dbo.tDetallePedido.cantidad, dbo.tProductos.idProducto), dbo.tProductos.idProducto) AS totalfardos, &#xD;&#xA; dbo.tBodegas.Bodega,dbo.tOrdenesEntrega.numeroorden&#xD;&#xA;								FROM         dbo.tOrdenesEntrega INNER JOIN&#xD;&#xA;							  dbo.tDepartamentos INNER JOIN&#xD;&#xA;							  dbo.tMunicipios ON dbo.tDepartamentos.idDepartamento = dbo.tMunicipios.idDepartamento INNER JOIN&#xD;&#xA;							  dbo.tTiendas INNER JOIN&#xD;&#xA;							  dbo.tPedidos ON dbo.tTiendas.idTienda = dbo.tPedidos.idTienda INNER JOIN&#xD;&#xA;							  dbo.tRutas ON dbo.tTiendas.idRuta = dbo.tRutas.idRuta ON dbo.tDepartamentos.idDepartamento = dbo.tTiendas.idDepartamento AND &#xD;&#xA;							  dbo.tMunicipios.idMunicipio = dbo.tTiendas.idMunicipio INNER JOIN&#xD;&#xA;							  dbo.tDetalleOrdenEntrega ON dbo.tPedidos.idPedido = dbo.tDetalleOrdenEntrega.idPedido ON &#xD;&#xA;							  dbo.tOrdenesEntrega.idOrdenEntrega = dbo.tDetalleOrdenEntrega.idOrdenEntrega INNER JOIN&#xD;&#xA;							  dbo.tDetallePedido ON dbo.tPedidos.idPedido = dbo.tDetallePedido.idPedido INNER JOIN&#xD;&#xA;							  dbo.tCasas INNER JOIN&#xD;&#xA;							  dbo.tProductos INNER JOIN&#xD;&#xA;							  dbo.tSubcategorias ON dbo.tProductos.idSubcategoria = dbo.tSubcategorias.idSubcategoria ON dbo.tCasas.idCasa = dbo.tProductos.idCasa ON &#xD;&#xA;							  dbo.tDetallePedido.idProducto = dbo.tProductos.idProducto INNER JOIN&#xD;&#xA;							  dbo.tBodegas ON dbo.tPedidos.idBodega = dbo.tBodegas.idBodega INNER JOIN&#xD;&#xA;							  dbo.tEmpleados ON dbo.tPedidos.idEmpleado = dbo.tEmpleados.idEmpleado WHERE ( dbo.tPedidos.fecha  Between '07/01/2015' and'08/01/2015') and dbo.tPedidos.anulado=0  and dbo.tDetallePedido.precio&lt;&gt;0 " />
+    </DataSource>
+    <DataSource ComponentName="dataSource6" Name="FarmaliderDWebSP_SellOutTotal">
+      <DataProvider DataConnection="farmaliderDWebSP.db.10508449.hostedresource.com_farmaliderDWebSPConnection" Sql="SELECT      dbo.tCasas.casa, CONVERT(varchar, dbo.tPedidos.fecha, 103) AS FechaPedido, dbo.tProductos.Producto, &#xD;&#xA;							  dbo.tDetallePedido.cantidad, dbo.tDetallePedido.presentacion AS Presentacion, dbo.tProductos.CodigoB, dbo.tProductos.CodigoBK, &#xD;&#xA;							  dbo.tDetallePedido.cantidad * dbo.tDetallePedido.precio AS Total, dbo.tDetallePedido.precio AS Precio, &#xD;&#xA;							  dbo.tEmpleados.Nombre + ' ' + dbo.tEmpleados.Apellido AS Empleado, dbo.tEmpleados.codigo AS CodigoEmpleado, dbo.tSubcategorias.Categoria, &#xD;&#xA;							  dbo.tTiendas.Tienda, dbo.tTiendas.codigo AS CodigoTienda, dbo.tDetallePedido.promocion, dbo.tRutas.Ruta, dbo.tRutas.codigo AS CodigoRuta, &#xD;&#xA;							  dbo.tDepartamentos.departamento AS Departamento, dbo.tMunicipios.municipio AS Municipio, 0 AS NumFactura, dbo.fCalcularUnidades2(N'FARDO', &#xD;&#xA;							  dbo.fCalcularUnidades(dbo.tDetallePedido.presentacion, dbo.tDetallePedido.cantidad, dbo.tProductos.idProducto), dbo.tProductos.idProducto) AS totalfardos, &#xD;&#xA; dbo.tBodegas.Bodega,dbo.tOrdenesEntrega.numeroorden&#xD;&#xA;								FROM         dbo.tOrdenesEntrega INNER JOIN&#xD;&#xA;							  dbo.tDepartamentos INNER JOIN&#xD;&#xA;							  dbo.tMunicipios ON dbo.tDepartamentos.idDepartamento = dbo.tMunicipios.idDepartamento INNER JOIN&#xD;&#xA;							  dbo.tTiendas INNER JOIN&#xD;&#xA;							  dbo.tPedidos ON dbo.tTiendas.idTienda = dbo.tPedidos.idTienda INNER JOIN&#xD;&#xA;							  dbo.tRutas ON dbo.tTiendas.idRuta = dbo.tRutas.idRuta ON dbo.tDepartamentos.idDepartamento = dbo.tTiendas.idDepartamento AND &#xD;&#xA;							  dbo.tMunicipios.idMunicipio = dbo.tTiendas.idMunicipio INNER JOIN&#xD;&#xA;							  dbo.tDetalleOrdenEntrega ON dbo.tPedidos.idPedido = dbo.tDetalleOrdenEntrega.idPedido ON &#xD;&#xA;							  dbo.tOrdenesEntrega.idOrdenEntrega = dbo.tDetalleOrdenEntrega.idOrdenEntrega INNER JOIN&#xD;&#xA;							  dbo.tDetallePedido ON dbo.tPedidos.idPedido = dbo.tDetallePedido.idPedido INNER JOIN&#xD;&#xA;							  dbo.tCasas INNER JOIN&#xD;&#xA;							  dbo.tProductos INNER JOIN&#xD;&#xA;							  dbo.tSubcategorias ON dbo.tProductos.idSubcategoria = dbo.tSubcategorias.idSubcategoria ON dbo.tCasas.idCasa = dbo.tProductos.idCasa ON &#xD;&#xA;							  dbo.tDetallePedido.idProducto = dbo.tProductos.idProducto INNER JOIN&#xD;&#xA;							  dbo.tBodegas ON dbo.tPedidos.idBodega = dbo.tBodegas.idBodega INNER JOIN&#xD;&#xA;							  dbo.tEmpleados ON dbo.tPedidos.idEmpleado = dbo.tEmpleados.idEmpleado WHERE ( dbo.tPedidos.fecha  Between '07/01/2015' and'08/01/2015') and dbo.tPedidos.anulado=0  and dbo.tDetallePedido.precio&lt;&gt;0 &#xD;&#xA;">
+        <Selection>
+          <Table Name="tBancos">
+            <Columns>
+              <Column Name="banco" Alias="banco" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="tBancos" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Pivot ComponentName="pivotDashboardItem1" Name="Cubo 1" DataSource="dataSource5">
+      <DataItems>
+        <Measure DataMember="CodigoTienda" SummaryType="CountDistinct" UniqueName="DataItem0" />
+        <Dimension DataMember="casa" UniqueName="DataItem1" />
+        <Dimension DataMember="Empleado" UniqueName="DataItem2" />
+      </DataItems>
+      <Columns>
+        <Column UniqueName="DataItem1" />
+      </Columns>
+      <Rows>
+        <Row UniqueName="DataItem2" />
+      </Rows>
+      <Values>
+        <Value UniqueName="DataItem0" />
+      </Values>
+    </Pivot>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pivotDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

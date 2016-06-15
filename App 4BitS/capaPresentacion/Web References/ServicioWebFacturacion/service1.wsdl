@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.eforcon.com/WebService" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.eforcon.com/WebService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.eforcon.com/WebService">
+      <s:element name="mFacturaXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pXMLFactura" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mFacturaXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mFacturaXMLResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SSO_clsResponseGeneral">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="pResultado" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="pDescripcion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="pCAE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="pIdSat" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="pCAEC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="mNotaCreditoXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pXMLCredito" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaCreditoXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mNotaCreditoXmlResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaDebitoXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pXMLDebito" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaDebitoXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mNotaDebitoXmlResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mFacturaCopiaXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pXMLFactura" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mFacturaCopiaXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mFacturaCopiaXMLResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaCreditoCopiaXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pXMLCredito" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaCreditoCopiaXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mNotaCreditoCopiaXmlResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaDebitoCopiaXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pXMLDebito" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mNotaDebitoCopiaXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mNotaDebitoCopiaXmlResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mAnularFactura">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="resolucion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="noFactura" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anio" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="razon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mAnularFacturaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mAnularFacturaResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mAnularNC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="resolucion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="noNC" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anio" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="razon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mAnularNCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mAnularNCResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mAnularND">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="resolucion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="noND" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anio" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="razon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mAnularNDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mAnularNDResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mObtieneInfoFacturas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="resolucion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="noFact" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mObtieneInfoFacturasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mObtieneInfoFacturasResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mObtieneInfoNCE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="resolucion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="noNC" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mObtieneInfoNCEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mObtieneInfoNCEResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mObtieneInfoNDE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="resolucion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="serie" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="noND" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="anio" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mObtieneInfoNDEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mObtieneInfoNDEResult" type="tns:SSO_clsResponseGeneral" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="mFacturaXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:mFacturaXML" />
+  </wsdl:message>
+  <wsdl:message name="mFacturaXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:mFacturaXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="mNotaCreditoXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:mNotaCreditoXml" />
+  </wsdl:message>
+  <wsdl:message name="mNotaCreditoXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:mNotaCreditoXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="mNotaDebitoXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:mNotaDebitoXml" />
+  </wsdl:message>
+  <wsdl:message name="mNotaDebitoXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:mNotaDebitoXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="mFacturaCopiaXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:mFacturaCopiaXML" />
+  </wsdl:message>
+  <wsdl:message name="mFacturaCopiaXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:mFacturaCopiaXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="mNotaCreditoCopiaXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:mNotaCreditoCopiaXml" />
+  </wsdl:message>
+  <wsdl:message name="mNotaCreditoCopiaXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:mNotaCreditoCopiaXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="mNotaDebitoCopiaXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:mNotaDebitoCopiaXml" />
+  </wsdl:message>
+  <wsdl:message name="mNotaDebitoCopiaXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:mNotaDebitoCopiaXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="mAnularFacturaSoapIn">
+    <wsdl:part name="parameters" element="tns:mAnularFactura" />
+  </wsdl:message>
+  <wsdl:message name="mAnularFacturaSoapOut">
+    <wsdl:part name="parameters" element="tns:mAnularFacturaResponse" />
+  </wsdl:message>
+  <wsdl:message name="mAnularNCSoapIn">
+    <wsdl:part name="parameters" element="tns:mAnularNC" />
+  </wsdl:message>
+  <wsdl:message name="mAnularNCSoapOut">
+    <wsdl:part name="parameters" element="tns:mAnularNCResponse" />
+  </wsdl:message>
+  <wsdl:message name="mAnularNDSoapIn">
+    <wsdl:part name="parameters" element="tns:mAnularND" />
+  </wsdl:message>
+  <wsdl:message name="mAnularNDSoapOut">
+    <wsdl:part name="parameters" element="tns:mAnularNDResponse" />
+  </wsdl:message>
+  <wsdl:message name="mObtieneInfoFacturasSoapIn">
+    <wsdl:part name="parameters" element="tns:mObtieneInfoFacturas" />
+  </wsdl:message>
+  <wsdl:message name="mObtieneInfoFacturasSoapOut">
+    <wsdl:part name="parameters" element="tns:mObtieneInfoFacturasResponse" />
+  </wsdl:message>
+  <wsdl:message name="mObtieneInfoNCESoapIn">
+    <wsdl:part name="parameters" element="tns:mObtieneInfoNCE" />
+  </wsdl:message>
+  <wsdl:message name="mObtieneInfoNCESoapOut">
+    <wsdl:part name="parameters" element="tns:mObtieneInfoNCEResponse" />
+  </wsdl:message>
+  <wsdl:message name="mObtieneInfoNDESoapIn">
+    <wsdl:part name="parameters" element="tns:mObtieneInfoNDE" />
+  </wsdl:message>
+  <wsdl:message name="mObtieneInfoNDESoapOut">
+    <wsdl:part name="parameters" element="tns:mObtieneInfoNDEResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="mFacturaXML">
+      <wsdl:input message="tns:mFacturaXMLSoapIn" />
+      <wsdl:output message="tns:mFacturaXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mNotaCreditoXml">
+      <wsdl:input message="tns:mNotaCreditoXmlSoapIn" />
+      <wsdl:output message="tns:mNotaCreditoXmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mNotaDebitoXml">
+      <wsdl:input message="tns:mNotaDebitoXmlSoapIn" />
+      <wsdl:output message="tns:mNotaDebitoXmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mFacturaCopiaXML">
+      <wsdl:input message="tns:mFacturaCopiaXMLSoapIn" />
+      <wsdl:output message="tns:mFacturaCopiaXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mNotaCreditoCopiaXml">
+      <wsdl:input message="tns:mNotaCreditoCopiaXmlSoapIn" />
+      <wsdl:output message="tns:mNotaCreditoCopiaXmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mNotaDebitoCopiaXml">
+      <wsdl:input message="tns:mNotaDebitoCopiaXmlSoapIn" />
+      <wsdl:output message="tns:mNotaDebitoCopiaXmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mAnularFactura">
+      <wsdl:input message="tns:mAnularFacturaSoapIn" />
+      <wsdl:output message="tns:mAnularFacturaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mAnularNC">
+      <wsdl:input message="tns:mAnularNCSoapIn" />
+      <wsdl:output message="tns:mAnularNCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mAnularND">
+      <wsdl:input message="tns:mAnularNDSoapIn" />
+      <wsdl:output message="tns:mAnularNDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoFacturas">
+      <wsdl:input message="tns:mObtieneInfoFacturasSoapIn" />
+      <wsdl:output message="tns:mObtieneInfoFacturasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoNCE">
+      <wsdl:input message="tns:mObtieneInfoNCESoapIn" />
+      <wsdl:output message="tns:mObtieneInfoNCESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoNDE">
+      <wsdl:input message="tns:mObtieneInfoNDESoapIn" />
+      <wsdl:output message="tns:mObtieneInfoNDESoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="mFacturaXML">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mFacturaXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaCreditoXml">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mNotaCreditoXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaDebitoXml">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mNotaDebitoXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mFacturaCopiaXML">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mFacturaCopiaXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaCreditoCopiaXml">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mNotaCreditoCopiaXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaDebitoCopiaXml">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mNotaDebitoCopiaXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mAnularFactura">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mAnularFactura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mAnularNC">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mAnularNC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mAnularND">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mAnularND" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoFacturas">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mObtieneInfoFacturas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoNCE">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mObtieneInfoNCE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoNDE">
+      <soap:operation soapAction="http://www.eforcon.com/WebService/mObtieneInfoNDE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="mFacturaXML">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mFacturaXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaCreditoXml">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mNotaCreditoXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaDebitoXml">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mNotaDebitoXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mFacturaCopiaXML">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mFacturaCopiaXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaCreditoCopiaXml">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mNotaCreditoCopiaXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mNotaDebitoCopiaXml">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mNotaDebitoCopiaXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mAnularFactura">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mAnularFactura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mAnularNC">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mAnularNC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mAnularND">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mAnularND" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoFacturas">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mObtieneInfoFacturas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoNCE">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mObtieneInfoNCE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mObtieneInfoNDE">
+      <soap12:operation soapAction="http://www.eforcon.com/WebService/mObtieneInfoNDE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="https://facturar.eforcon.com/eforconservice/service1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="https://facturar.eforcon.com/eforconservice/service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
