@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{53F07669-5E0C-41F1-BA69-D26B37851AED}</ProjectGuid>
+    <ProjectGuid>{513D9F1D-F776-4B72-AA84-A8DBA2D61640}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>namespace4BITS.namespace4BITS.PRINCIPAL</StartupObject>
     <RootNamespace>namespace4BITS</RootNamespace>
