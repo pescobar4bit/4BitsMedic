@@ -22,3 +22,15 @@ C:\4BitsRepositorys\tRepositorio\SysMediX\capaLogica\obj\Debug\capaLogica.vbproj
 C:\4BitsRepositorys\tRepositorio\SysMediX\capaLogica\obj\Debug\capaLogica.dll
 C:\4BitsRepositorys\tRepositorio\SysMediX\capaLogica\obj\Debug\capaLogica.xml
 C:\4BitsRepositorys\tRepositorio\SysMediX\capaLogica\obj\Debug\capaLogica.pdb
+C:\Repositorio4BitsMedic\capaLogica\bin\Debug\capaLogica.dll
+C:\Repositorio4BitsMedic\capaLogica\bin\Debug\capaLogica.pdb
+C:\Repositorio4BitsMedic\capaLogica\bin\Debug\capaLogica.xml
+C:\Repositorio4BitsMedic\capaLogica\bin\Debug\capaDatos.dll
+C:\Repositorio4BitsMedic\capaLogica\bin\Debug\capaDatos.pdb
+C:\Repositorio4BitsMedic\capaLogica\bin\Debug\capaDatos.xml
+C:\Repositorio4BitsMedic\capaLogica\obj\Debug\capaLogica.vbprojResolveAssemblyReference.cache
+C:\Repositorio4BitsMedic\capaLogica\obj\Debug\capaLogica.Resources.resources
+C:\Repositorio4BitsMedic\capaLogica\obj\Debug\capaLogica.vbproj.GenerateResource.Cache
+C:\Repositorio4BitsMedic\capaLogica\obj\Debug\capaLogica.dll
+C:\Repositorio4BitsMedic\capaLogica\obj\Debug\capaLogica.xml
+C:\Repositorio4BitsMedic\capaLogica\obj\Debug\capaLogica.pdb
