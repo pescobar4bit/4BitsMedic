@@ -5,11 +5,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "capaDatos", "capaDatos\capa
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "capaLogica", "capaLogica\capaLogica.vbproj", "{152142CD-2C83-493A-9220-105AB2490F22}"
 EndProject
-<<<<<<< HEAD:4BitS Medical.sln
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "capaPresentacion", "capaPresentacion\capaPresentacion.vbproj", "{53F07669-5E0C-41F1-BA69-D26B37851AED}"
-=======
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "capaPresentacion", "capaPresentacion\capaPresentacion.vbproj", "{513D9F1D-F776-4B72-AA84-A8DBA2D61640}"
->>>>>>> origin/master:App 4BitS/4BitS Medical.sln
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +27,14 @@ Global
 		{152142CD-2C83-493A-9220-105AB2490F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152142CD-2C83-493A-9220-105AB2490F22}.Release|Any CPU.Build.0 = Release|Any CPU
 		{152142CD-2C83-493A-9220-105AB2490F22}.Release|x86.ActiveCfg = Release|Any CPU
-		{53F07669-5E0C-41F1-BA69-D26B37851AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53F07669-5E0C-41F1-BA69-D26B37851AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53F07669-5E0C-41F1-BA69-D26B37851AED}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{53F07669-5E0C-41F1-BA69-D26B37851AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53F07669-5E0C-41F1-BA69-D26B37851AED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53F07669-5E0C-41F1-BA69-D26B37851AED}.Release|x86.ActiveCfg = Release|Any CPU
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Debug|x86.ActiveCfg = Debug|x86
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Debug|x86.Build.0 = Debug|x86
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Release|x86.ActiveCfg = Release|x86
+		{513D9F1D-F776-4B72-AA84-A8DBA2D61640}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
