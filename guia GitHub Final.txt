@@ -1,0 +1,33 @@
+Crear carpeta
+get init
+
+Uniendose al servidor remoto
+git remote add origin git@github.com:pescobar4bit/Team4Bits.git
+
+Creando llave pública
+ssh-keygen -t rsa -b 4096 -C "pabloxela@gmail.com"
+
+Elegir la ubicación de la llave por defecto, enter
+
+Entrar a la carpeta por defecto creada
+cd .ssh
+
+Se abre la llave para copiarla posteriormete a la Web para crear una llave SSH and GPG Keys en dashboard
+cat id_rsa.pub
+
+Se copia y genera la SSH KEY
+
+REgresar al directorio del repositorio actual
+
+ACTUALIZANDO EL REPOSITORIO
+
+git fetch origin
+git merge origin/master
+
+
+PARA HACER COMMIT AL SERVIDOR
+
+git add -A
+git commit -m "Comentario"
+git push origin master
+
