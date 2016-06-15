@@ -1,0 +1,74 @@
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\Medical 4Bits.exe.config
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Interop.MSScriptControl.dll
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\capaPresentacion.vbproj.ResolveComReference.cache
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\capaPresentacion.vbprojResolveAssemblyReference.cache
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmAnalisisDisenadorActu.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmGruposNuevo.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmImportarDatos.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmInicioEmpresas.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmInputPass.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmInicio.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmInputBox.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmPreferencias.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmPrincipal.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmGrupos.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmUsuarios.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmUsuariosNuevo.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmWizard.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmWizardReportes.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmHojaCalculo.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.Resources.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.WaitForm1.resources
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\capaPresentacion.vbproj.GenerateResource.Cache
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Medical 4Bits.exe.licenses
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\Medical 4Bits.exe
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\Medical 4Bits.pdb
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\Medical 4Bits.xml
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\capaLogica.dll
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\capaDatos.dll
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\capaLogica.pdb
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\capaLogica.xml
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\capaDatos.pdb
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\capaDatos.xml
+C:\Users\AnS\Desktop\CuentasI\CuentasI\bin\Debug\Interop.MSScriptControl.dll
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Medical 4Bits.exe
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Medical 4Bits.xml
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\Medical 4Bits.pdb
+C:\Users\AnS\Desktop\CuentasI\CuentasI\obj\Debug\namespace4BITS.frmEspecialidades.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.exe.config
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Interop.MSScriptControl.dll
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbproj.ResolveComReference.cache
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.exe
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.xml
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.pdb
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.exe
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.pdb
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Medical 4Bits.xml
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaLogica.dll
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaDatos.dll
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaLogica.pdb
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaLogica.xml
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaDatos.pdb
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\capaDatos.xml
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\bin\Debug\Interop.MSScriptControl.dll
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbprojResolveAssemblyReference.cache
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmAnalisisDisenadorActu.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmEspecialidades.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmGruposNuevo.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmImportarDatos.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmInicioEmpresas.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmInputPass.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmInicio.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmInputBox.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmPreferencias.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmPrincipal.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmGrupos.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmUsuarios.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmUsuariosNuevo.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmWizard.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmWizardReportes.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.frmHojaCalculo.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.Resources.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\namespace4BITS.WaitForm1.resources
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\capaPresentacion.vbproj.GenerateResource.Cache
+C:\4BitsRepositorys\4BitsMedical\App 4BitS\capaPresentacion\obj\Debug\Medical 4Bits.exe.licenses

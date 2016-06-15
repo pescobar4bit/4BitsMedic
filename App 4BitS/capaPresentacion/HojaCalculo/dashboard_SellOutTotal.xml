@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-GT">
+  <Title Text="Tablero de control" />
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="SellOutPorProducto" />
+    <DataSource ComponentName="dataSource2" Name="SellOutPorPedido" />
+    <DataSource ComponentName="dataSource3" Name="SellIn" />
+    <DataSource ComponentName="dataSource4" Name="PromedioRutas" />
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Gráfico 1" DataSource="dataSource1">
+      <DataItems>
+        <Measure DataMember="Total" Name="Sell-Out" UniqueName="DataItem0">
+          <NumericFormat FormatType="Number" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="Bodega" UniqueName="DataItem1" />
+        <Dimension DataMember="Casa" UniqueName="DataItem2" />
+        <Measure DataMember="CodigoTienda" Name="Cobertura" SummaryType="CountDistinct" UniqueName="DataItem3">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="FechaPedido" DateTimeGroupInterval="Month" UniqueName="DataItem4" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem1" />
+        <SeriesDimension UniqueName="DataItem4" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem2" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem0" />
+              <PointLabelOptions Visible="true" />
+            </Simple>
+            <Simple PlotOnSecondaryAxis="true" ShowPointMarkers="true" SeriesType="Line">
+              <Value UniqueName="DataItem3" />
+              <PointLabelOptions Visible="true" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Chart ComponentName="chartDashboardItem2" Name="Gráfico 2" DataSource="dataSource1" Rotated="true">
+      <DataItems>
+        <Measure DataMember="Total" Name="Sell-Out Total" UniqueName="DataItem0">
+          <NumericFormat FormatType="Number" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="Bodega" UniqueName="DataItem1" />
+        <Dimension DataMember="FechaPedido" DateTimeGroupInterval="Month" UniqueName="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem2" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem0" />
+              <PointLabelOptions Visible="true" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutItem DashboardItem="chartDashboardItem1" Weight="50.082644628099175" />
+      <LayoutItem DashboardItem="chartDashboardItem2" Weight="49.917355371900825" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
