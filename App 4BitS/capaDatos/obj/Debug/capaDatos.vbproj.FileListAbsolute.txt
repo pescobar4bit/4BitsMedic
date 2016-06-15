@@ -22,3 +22,11 @@ C:\Repositorio4BitsMedic\capaDatos\obj\Debug\capaDatos.vbproj.GenerateResource.C
 C:\Repositorio4BitsMedic\capaDatos\obj\Debug\capaDatos.dll
 C:\Repositorio4BitsMedic\capaDatos\obj\Debug\capaDatos.xml
 C:\Repositorio4BitsMedic\capaDatos\obj\Debug\capaDatos.pdb
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\bin\Debug\capaDatos.dll
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\bin\Debug\capaDatos.pdb
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\bin\Debug\capaDatos.xml
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\obj\Debug\capaDatos.Resources.resources
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\obj\Debug\capaDatos.vbproj.GenerateResource.Cache
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\obj\Debug\capaDatos.dll
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\obj\Debug\capaDatos.xml
+C:\Repositorio4BitsMedic\App 4BitS\capaDatos\obj\Debug\capaDatos.pdb
